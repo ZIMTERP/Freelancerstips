@@ -122,10 +122,16 @@ a {
   text-decoration: none;
   position: relative;
   z-index: 1;
-  animation: pulseColors 6s infinite ease-in-out;
   box-shadow: 0 0 10px rgba(243, 156, 18, 0.5),
               0 0 20px rgba(243, 156, 18, 0.3);
   transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effect Only */
+.hero .btn:hover {
+  background-color: #d78d0f;
+  box-shadow: 0 0 15px rgba(243, 156, 18, 0.6),
+              0 0 25px rgba(243, 156, 18, 0.4);
 }
 
 /* 🔁 Background color animation loop */
